@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Button, View, Text, Image} from 'react-native';
 
-function Descripcion({route, navigation}) {
+function DetailsScreen({route, navigation}) {
 
     const {id, description, stock, titulo, img} = route.params;
 
@@ -61,4 +61,4 @@ const styles = StyleSheet.create({
     // }
 })
 
-export default Descripcion;
+export default DetailsScreen;

@@ -15,7 +15,7 @@ function Box ({id, titulo, description, img, stock}) {
             <Text>{description}</Text>
             <Button
             title="info"
-            onPress = {()=>navigation.navigate("Desc",{
+            onPress = {()=>navigation.navigate("Detalles",{
               id: id,
               description: description,
               titulo: titulo,

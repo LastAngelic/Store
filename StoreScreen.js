@@ -3,7 +3,7 @@ import {StyleSheet, Button, View, Text} from 'react-native';
 import Items from './Items';
 import Box from './Box';
 
-function DetailScreen({route, navigation}) {
+function StoreScreen({route, navigation}) {
 
     const {id, description, stock, img, titulo} = route.params;
 
@@ -67,4 +67,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default DetailScreen;
+export default StoreScreen;
