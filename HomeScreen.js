@@ -5,13 +5,16 @@ import styles from './styles';
 function HomeScreen({navigation}) {
     return (
         <View style={styles.container}>
-            <Text>Home</Text>
             <Text style={styles.text}>Home</Text>
             <Button 
-                title="Ir a Detalle"
-                onPress={() => navigation.navigate('Details')}
+                title="Tienda"
+                onPress={() => navigation.navigate('Tienda', {
+                    id:1,
+                    description: 'Aqui estan todos los productos',
+                }
+            )}
             />
-
+            
         </View>
     );
 }
