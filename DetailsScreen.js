@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, Button, View, Text, Image} from 'react-native';
+import NavigationButton from './NavigationButton';
 
 function DetailsScreen({route, navigation}) {
 

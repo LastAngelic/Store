@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, Button, View, Text} from 'react-native';
 import Items from './Items';
 import Box from './Box';
+import NavigationButton from './NavigationButton';
 
 function StoreScreen({route, navigation}) {
 
